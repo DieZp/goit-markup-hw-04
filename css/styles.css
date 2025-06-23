@@ -123,6 +123,9 @@ gap: 40px;}
 .hero-banner {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7)),
+    url(/images/people-office.jpg);
+    max-width: 1440px;
 }
 
 .hero-banner-content {
