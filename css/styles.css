@@ -420,7 +420,7 @@ img {
     position: relative;
     overflow: hidden;
 }
-.portfolio-images:hover{transform: translateY(0%);}
+.portfolio-images:hover p {transform: translateY(0%);}
 
 .portfolio-images-text {
     position: absolute;
