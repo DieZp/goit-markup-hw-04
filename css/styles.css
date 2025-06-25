@@ -164,7 +164,7 @@ body {
     background-image:linear-gradient(
     rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)), 
-     url(./images/people-office.jpg);
+     url(/images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -485,7 +485,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     margin: 0;
-    /* padding: 100px 0; */
+    max-width: 264px;
 
 }
 
