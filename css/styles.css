@@ -278,11 +278,6 @@ body {
     padding: 120px 0;
 }
 
-.team-contacts {
-    display: flex;
-    gap: 24px;
-}
-
 .team-contacts-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -343,11 +338,10 @@ img {
 }
 .team-contacts-icon{fill: #f4f4fd;}
 
-
-/* .team-contacts {
+.team-contacts {
     display: flex;
     justify-content: center;
-    gap: 24px; */
+    gap: 24px;}
 
 .team-contacts-item {
     display: flex;
@@ -531,7 +525,8 @@ img {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     
 
 .footer-socials-link:hover,
