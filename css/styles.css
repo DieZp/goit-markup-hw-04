@@ -260,6 +260,11 @@ body {
     margin-bottom: 8px;
 }
 
+.team-list{display: flex;
+    gap: 24px;}
+
+ .team-images{background-color: #FFFFFF;}
+
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
